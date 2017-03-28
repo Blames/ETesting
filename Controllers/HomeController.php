@@ -5,8 +5,8 @@ class HomeController{
 	{
 		
 		require_once('Models/HomeModel.php');
-		$modelPokemon = new HomeModel();
-		$listPokemon = 	$modelPokemon->listeCopain();
+		$modelCopain = new HomeModel();
+		$listCopain = 	$modelCopain->listeCopain();
 		require_once('Views/homepage.php');
 		}
 }
