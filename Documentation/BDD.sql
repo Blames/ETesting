@@ -14,5 +14,5 @@ PRIMARY KEY (id)
 ) ENGINE=InnoDB;
 
 INSERT INTO copain (id, name, surname, price, bonobo) VALUES 
-(NULL, 'Baptiste', 'Dinahet', 5, false),
+(NULL, 'Baptiste', 'Dinahet', 5, true),
 (NULL, 'Maxence', 'Jolly', 5, true);
