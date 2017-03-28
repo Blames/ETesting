@@ -1,18 +1,28 @@
 DROP DATABASE IF EXISTS copain;
 
 CREATE DATABASE copain;
+
 USE copain;
 
-CREATE TABLE copain(
-id	int(11) Auto_increment NOT NULL,
-name varchar(50) NOT NULL,
-surname varchar (50) NOT NULL,
-price decimal,
-bonobo boolean,
+#------------------------------------------------------------
+#        Script MySQL.
+#------------------------------------------------------------
 
-PRIMARY KEY (id)
-) ENGINE=InnoDB;
 
-INSERT INTO copain (id, name, surname, price, bonobo) VALUES 
+#------------------------------------------------------------
+# Table: Copain
+#------------------------------------------------------------
+
+CREATE TABLE Copain(
+        id      int (11) Auto_increment  NOT NULL ,
+        name    Varchar (15) ,
+        surname Varchar (15) ,
+        price   Decimal (15) NOT NULL ,
+        bonobo  Bool ,
+        PRIMARY KEY (id )
+)ENGINE=InnoDB;
+
+
+INSERT INTO Copain (id, name, surname, price, bonobo) VALUES 
 (NULL, 'Baptiste', 'Dinahet', 5, false),
 (NULL, 'Maxence', 'Jolly', 5, true);
