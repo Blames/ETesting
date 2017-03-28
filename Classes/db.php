@@ -1,5 +1,5 @@
 <?php
-class BDD{
+class db{
 	public static $instance;
 
 	private function __construct()
@@ -11,7 +11,7 @@ class BDD{
 	public static function getInstance()
 	{
 		if (empty(self::$instance)) {
-			self::$instance = new BDD();
+			self::$instance = new db();
 					}
 		
 		return self::$instance;
