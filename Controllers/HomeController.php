@@ -6,7 +6,7 @@ class HomeController{
 		
 		require_once('Models/HomeModel.php');
 		$modelCopain = new HomeModel();
-		$listCopain = 	$modelCopain->listeCopain();
+		$listCopain = 	$modelCopain->listeCopains();
 		require_once('Views/homepage.php');
 		}
 }
