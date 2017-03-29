@@ -4,7 +4,7 @@ class db{
 
 	private function __construct()
 	{
-		$this->bdd = new PDO('mysql:host=localhost;dbname=Pokedex;charset=utf8','root','');
+		$this->bdd = new PDO('mysql:host=localhost;dbname=ETesting;charset=utf8','root','');
 		
 	}
 

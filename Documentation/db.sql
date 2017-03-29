@@ -1,8 +1,8 @@
-DROP DATABASE IF EXISTS copain;
+DROP DATABASE IF EXISTS ETesting;
 
-CREATE DATABASE copain;
+CREATE DATABASE ETesting;
 
-USE copain;
+USE ETesting;
 
 #------------------------------------------------------------
 #        Script MySQL.
@@ -26,3 +26,4 @@ CREATE TABLE Copain(
 INSERT INTO Copain (id, name, surname, price, bonobo) VALUES 
 (NULL, 'Baptiste', 'Dinahet', 5, false),
 (NULL, 'Maxence', 'Jolly', 5, true);
+ 
